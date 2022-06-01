@@ -84,8 +84,7 @@ $(document).ready(function () {
     menu: "#myMenu",
     fitToSection: false,
 
-    afterLoad: function (anchorLink, index) {
-      var loadedSection = $(this);
+    afterLoad: function (index) {
       //using index
       if (index == 1) {
         /* add opacity to arrow */
