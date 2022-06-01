@@ -86,7 +86,6 @@ $(document).ready(function () {
 
     afterLoad: function (anchorLink, index) {
       var loadedSection = $(this);
-
       //using index
       if (index == 1) {
         /* add opacity to arrow */
@@ -99,9 +98,9 @@ $(document).ready(function () {
         $(".header-links").css("background-color", "transparent");
       } else if (index != 1) {
         $(".header-links a").each(function () {
-          $(this).css("color", "black");
+          $(this).css("color", "white");
         });
-        $(".header-links").css("background-color", "white");
+        $(".header-links").css("background-color", "black");
       }
 
       //using index

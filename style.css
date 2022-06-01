@@ -2,24 +2,26 @@
 
 body {
   font-family: "Raleway", sans-serif !important;
+  background-color: black;
 }
 
 ul {
   list-style-type: none;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 a {
-  text-decoration: none !important;
+  text-decoration: nsone !important;
 }
 
 h1 {
-  color: #ff6363;
+  color: #d004da;
   font-weight: bold;
 }
 
 p {
   font-size: 20px;
-  color: #484848;
+  color: #ffffff;
 }
 
 .section {
@@ -89,7 +91,7 @@ p {
 
 .fa-bars {
   display: none !important;
-  color: #ff6363;
+  color: #d004da;
   float: right;
   padding: 20px;
   position: fixed;
@@ -127,7 +129,7 @@ p {
 }
 
 .header-links a:hover {
-  color: #ff6363 !important;
+  color: #d004da !important;
 }
 
 /* slide out nav menu styles */
@@ -160,7 +162,7 @@ p {
 }
 
 .nav-links a:hover {
-  color: #ff6363;
+  color: #d004da;
   -webkit-transition: all 0.6s ease-in-out;
   -o-transition: all 0.6s ease-in-out;
   -ms-transition: all 0.6s ease-in-out;
@@ -180,7 +182,7 @@ p {
   margin-top: 5px;
   width: 0;
   height: 2px;
-  background-color: #fff;
+  background-color: rgb(19, 19, 19);
   content: "";
   opacity: 0;
   -webkit-transition: width 0.6s, opacity 0.8s;
@@ -218,7 +220,7 @@ p {
 /* bouncing arrow */
 
 .fa-chevron-down {
-  color: #ff6363 !important;
+  color: #d004da !important;
   bottom: 10px;
   margin-left: -30px;
   cursor: pointer;
@@ -305,7 +307,7 @@ p {
   display: block;
   margin-bottom: 15px;
   width: 100%;
-  background: #efefef;
+  background: #1d1c1c;
   height: 30px;
   border-radius: 3px;
   -moz-border-radius: 3px;
@@ -341,7 +343,7 @@ p {
 
 .skillbar-title span {
   display: block;
-  background: rgba(0, 0, 0, 0.15);
+  background: rgba(203, 202, 202, 0.15);
   padding: 0 20px;
   height: 30px;
   line-height: 30px;
@@ -369,7 +371,7 @@ p {
   height: 30px;
   line-height: 30px;
   color: #ffffff;
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(255, 255, 255, 0.5);
 }
 
 /* portfolio section */
@@ -391,12 +393,12 @@ p {
 }
 
 .fp-controlArrow.fp-next {
-  border-color: transparent transparent transparent #ff6363 !important;
+  border-color: transparent transparent transparent #d004da !important;
   right: 45px !important;
 }
 
 .fp-controlArrow.fp-prev {
-  border-color: transparent #ff6363 transparent transparent !important;
+  border-color: transparent #d004da transparent transparent !important;
   left: 45px !important;
 }
 
@@ -483,18 +485,18 @@ label {
   padding: 12px;
   min-width: 200px;
   border-radius: 2px;
-  border: 2px solid #ff6363;
+  border: 2px solid #d004da;
   text-align: center;
   font-size: 1em;
-  color: #ff6363;
-  background-color: white;
+  color: #d004da;
+  background-color: black;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
 }
 
 #submit:hover {
-  background-color: #ff6363;
+  background-color: #000000;
   color: white;
   -webkit-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
@@ -506,13 +508,13 @@ label {
 /* footer styles */
 
 .footer {
-  background-color: #484848;
+  background-color: black;
   height: 100px;
   padding-top: 10px;
 }
 
 .footer p {
-  color: white;
+  color: #d004da;
   font-weight: bold;
   font-size: 16px;
 }
@@ -523,7 +525,7 @@ label {
 }
 
 .social-links a:hover {
-  color: #ff6363;
+  color: #d004da;
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   -ms-transition: all 0.2s ease-in-out;
@@ -569,7 +571,7 @@ label {
 }
 
 .spinner > div {
-  background-color: #ff6363;
+  background-color: #d004da;
   height: 100%;
   width: 6px;
   display: inline-block;
